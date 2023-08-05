@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+a[data-v-9c524ef4] {
+  background: var(--color-raised-bg);
+  border-radius: 2rem;
+  box-shadow: var(--shadow-raised), var(--shadow-inset);
+  color: var(--color-button-text);
+  margin: 0px;
+  padding: 0.5rem 1rem;
+  transition: opacity 0.5s ease-in-out 0s, filter 0.2s ease-in-out 0s,
+    transform 0.05s ease-in-out 0s, outline 0.2s ease-in-out 0s;
+}
+
+a.page-2-current {
+  background: var(--color-brand);
+  color: var(--color-brand-inverted);
+  cursor: default;
+}
+a.page-1-current {
+  background: var(--color-brand);
+  color: var(--color-brand-inverted);
+  cursor: default;
+}
+
+a.paginate.disabled[data-v-9c524ef4] {
+  background-color: transparent;
+  cursor: not-allowed;
+  filter: grayscale(50%);
+  opacity: 0.5;
+}
+
+a[data-v-9c524ef4]:hover:not(a:disabled) {
+  filter: brightness(0.85);
+}
+
+a[data-v-9c524ef4]:active:not(a:disabled) {
+  filter: brightness(0.8);
+  transform: scale(0.95);
+}
+
+.has-icon[data-v-9c524ef4] {
+  align-items: center;
+  display: flex;
+}
+
+.has-icon svg[data-v-9c524ef4] {
+  width: 1em;
+}
+
+.has-icon[data-v-9c524ef4],
+.page-number-container[data-v-9c524ef4],
+a[data-v-9c524ef4] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.paginates[data-v-9c524ef4] {
+  height: 2em;
+  margin: 0.5rem 0px;
+}
+
+.paginates .has-icon[data-v-9c524ef4],
+.paginates > div[data-v-9c524ef4] {
+  margin: 0px 0.3em;
+}
+
+.left-arrow[data-v-9c524ef4] {
+  margin-left: auto !important;
+}
+
+.right-arrow[data-v-9c524ef4] {
+  margin-right: auto !important;
+}
+
+@media screen and (max-width: 400px) {
+  .paginates[data-v-9c524ef4] {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  a[data-v-9c524ef4] {
+    padding: 0.5rem 0px;
+    width: 2.5rem;
+  }
+}
