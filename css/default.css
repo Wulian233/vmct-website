@@ -651,7 +651,7 @@ tr.button-transparent:disabled > *, tr.button-transparent[disabled="true"] > * {
 
 .error .link { cursor: pointer; text-decoration: underline; }
 
-.card { background: var(--color-raised-bg); border-radius: var(--size-rounded-card); box-shadow: var(--shadow-card); margin-bottom: var(--spacing-card-md); min-height: var(--font-size-2xl); outline: transparent solid 2px; padding: var(--spacing-card-md) var(--spacing-card-lg); position: relative; }
+.card { background: var(--color-raised-bg); border-radius: var(--size-rounded-card); box-shadow: var(--shadow-card); margin-bottom: 3rem; margin-top:3rem; min-height: var(--font-size-2xl); outline: transparent solid 2px; padding: var(--spacing-card-md) var(--spacing-card-lg); position: relative; }
 
 .card .card__overlay { gap: 0.5rem; align-items: flex-end; display: flex; flex-direction: column; position: absolute; right: 1rem; top: 1rem; z-index: 2; }
 
