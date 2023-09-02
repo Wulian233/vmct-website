@@ -1196,3 +1196,8 @@ fieldset[disabled] .multiselect { pointer-events: none; }
   0% { transform: rotate(0deg); }
   100% { transform: rotate(2turn); }
 }
+.advertisement div img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
