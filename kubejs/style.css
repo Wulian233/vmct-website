@@ -1,0 +1,190 @@
+:root {
+    --accent: #77428D;
+    --accent-secondary: #CB3DE2;
+
+    --text-primary: white;
+    --text-secondary: #E6E6E6;
+
+    --bilibili: #F9719F;
+    --github: #242a2e;
+
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.container > div {
+    max-width: 1000px;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+button, .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    background-image: linear-gradient(to bottom right, var(--accent), var(--accent-secondary));
+    color: var(--text-secondary);
+    box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.25s;
+
+    border-radius: 0.375rem;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .button:hover {
+    box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+button img, .button img {
+    color: white;
+    width: 1rem;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer.kubejs-footer {
+    background-color: #3e3e3e;
+    text-align: center;
+    padding: 1rem 0
+}
+
+p.kubejs-footer {
+    color: var(--text-secondary)
+}
+
+.main.kubejs-main {
+    background-image: url(https://meteorclient.com/background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10rem 0
+}
+
+.inside.kubejs-main {
+    background-color: #00000080;
+    display: inline-block;
+    backdrop-filter: blur(.1rem);
+    padding: 2rem;
+    border-radius: 5px
+}
+
+.buttons.kubejs-main {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 1rem
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .buttons.kubejs-main {
+        gap: 1rem
+    }}
+
+@media screen and (max-width: 300px) {
+    .buttons.kubejs-main {
+        flex-direction: column
+    }}
+
+.buttons.kubejs-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0
+}
+
+.button.kubejs-button {
+    color: var(--text-primary);
+    min-width: 20rem
+}
+
+
+@media screen and (max-width: 1100px) {
+    .button.kubejs-button {
+        min-width: 16rem
+    }}
+
+@media screen and (max-width: 300px) {
+    .button.kubejs-button {
+        min-width: 12rem
+    }}
+
+.cont.kubejs-card.kubejs-card {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 3rem
+}
+
+.card.kubejs-card.kubejs-card {
+    box-shadow: 0 0 16px #00000040;
+    padding: 1rem;
+    transition: box-shadow .25s;
+    border-radius: .375rem;
+    padding: 2rem
+}
+
+.card.kubejs-card.kubejs-card:hover {
+    box-shadow: 0 0 16px #0006
+}
+
+.card.kubejs-card img.kubejs-card {
+    border-radius: 50%;
+    width: 14rem;
+    margin-bottom: 1.5rem
+}
+
+a.kubejs-card.kubejs-card {
+    background-image: none
+}
+
+@media screen and (max-width: 1100px) {
+    .cont.kubejs-card.kubejs-card {
+        flex-direction: column;
+        gap: 1.5rem
+    }}
+
+@media screen and (max-width: 300px) {
+    .card.kubejs-card img.kubejs-card {
+        width: 10rem
+    }}
