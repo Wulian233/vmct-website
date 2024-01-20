@@ -50,7 +50,7 @@ function askQuestion(title, question, correctAnswer) {
 }
 
 function math() {
-    var randomNumber = Math.floor(Math.random() * 6) + 1;
+    var randomNumber = Math.floor(Math.random() * 9) + 1;
     setTimeout(function() {
         if (randomNumber == 1) {
             Swal.fire({
@@ -118,10 +118,10 @@ function math() {
             });
         } else if (randomNumber == 6) {
             askQuestion('化学题', '向分别盛有下列物质的点滴版孔穴中滴加足量稀硫酸，无明显现象的是<br><br>' +
-                'A. Fe2O3<br>' +
+                'A. Fe₂O₃<br>' +
                 'B. Fe<br>' +
                 'C. 稀 NaOH 溶液<br>' +
-                'D. Na2CO3 溶液<br>' +
+                'D. Na₂CO₃ 溶液<br>' +
                 '（2023北京中考化学17）', 'C');
         }else if (randomNumber == 7) {
             askQuestion('历史题', '随着西方列强的侵华，中国人民为救亡图存进行了不懈地抗争和探索。下列相关表述逻辑关系不正确的是<br><br>' +
@@ -152,7 +152,7 @@ function showModal() {
     setTimeout(function() {
         Swal.fire({
             title: '安装教程',
-            text: '首先，肯定要先下载汉化，就是一个zip压缩文件。然后找到安装整合包的文件夹，即.minecraft文件夹，启动器打开的记得返回到上一级。然后右键汉化文件，汉化解压到.minecraft文件夹。出现合并文件夹/替换文件时，说明你操作对了，没出现就是你有一步没做对。然后一律点击“是/确认”。最后，最好按照图示方法关闭游戏完整性检查，这里以PCL2启动器为例。虽然不关闭也不会出事。',
+            text: '首先，要先下载汉化，现在点击下面的按钮就可以下载了。然后找到安装整合包的文件夹，可以在启动器内点击相应的按钮自动弹出游戏目录（窗口内包含config mods等文件夹的就是)。然后右键汉化文件压缩包，点击解压到当前文件夹。出现合并文件夹/替换文件时，说明你操作对了，没出现就是你有一步没做对。然后一律点击“是/确认”。最后，可以按照图示方法关闭游戏完整性检查，一般不关闭也没事',
             imageUrl: 'https://s1.ax1x.com/2023/06/04/pC9UN1s.jpg'
         }).then((result) => {
             if (result.isConfirmed) {
