@@ -90,7 +90,7 @@ function math() {
                 '提示词语：overcome,practice,effort,make progress<br>' +
                 '提示问题：<li>How do you face challenges in your life?</li><br>' +
                 '<li>What have you achieved?</li><br>' +
-                '注意：请发送邮件给捂脸（1055917385@qq.com），收到后会人工给你的作文打分，并且回复你汉化下载链接。<a href="mailto:1055917385@qq.com?subject=英语作文题">点我发邮件</a><br>'+
+                '注意：请发送邮件给捂脸（wulian@vmct-cn.top），收到后会人工给你的作文打分，并且回复你汉化下载链接。<a href="mailto:wulian@vmct-cn.top?subject=英语作文题">点我发邮件</a><br>'+
                 '（2023北京大兴英语二模题目②）<br>'+
                 '<em>It is important for us to face challenges in our lives.</em>',
                 confirmButtonText: '确认',
