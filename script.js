@@ -152,11 +152,23 @@ function showModal() {
     setTimeout(function() {
         Swal.fire({
             title: '安装教程',
-            text: '首先，要先下载汉化，现在点击下面的按钮就可以下载了。然后找到安装整合包的文件夹，可以在启动器内点击相应的按钮自动弹出游戏目录（窗口内包含config mods等文件夹的就是)。然后右键汉化文件压缩包，点击解压到当前文件夹。出现合并文件夹/替换文件时，说明你操作对了，没出现就是你有一步没做对。然后一律点击“是/确认”。最后，可以按照图示方法关闭游戏完整性检查，一般不关闭也没事',
-            imageUrl: 'https://s1.ax1x.com/2023/06/04/pC9UN1s.jpg'
+            text: '首先，要先下载汉化，现在你正在看安装教程，待会就可以下载了。然后找到安装整合包的文件夹，你可以在启动器内点击相应的按钮自动弹出游戏目录（窗口内包含config、mods等文件夹的就是)。然后右键刚才下载的汉化zip压缩包，点击解压到当前文件夹。如果出现合并文件夹/替换文件的提示，说明你操作对了，没出现就是你有一步没做对。然后一律点击“是/确认”。安装完成。',
+            imageUrl: 'https://s1.ax1x.com/2023/06/04/pC9UN1s.jpg',
+            cancelButtonText: '没看教程，继续看（点击就不看了）',
+            confirmButtonText: '下载汉化',
+            showCancelButton: true,
+            showConfirmButton: false,
+            didOpen: () => {
+                setTimeout(() => {
+                    cancelButtonText: '不下载了',
+                    Swal.update({
+                        showConfirmButton: true
+                    });
+                }, 5000);
+            }
         }).then((result) => {
             if (result.isConfirmed) {
-                download()
+                download();
             }
         });
     },
