@@ -187,18 +187,21 @@ for (var i = 0; i < links.length; i++) {
     };
 }
 
-var viewer = new Viewer(document.querySelector('.image-grid'), {
-    url: 'data-original',
-    toolbar: {
-        oneToOne: true,
-        reset: true,
-        prev: true,
-        play: true,
-        next: true,
-        rotateLeft: true,
-        rotateRight: true,
-        flipHorizontal: true,
-        flipVertical: true,
-    },
-});
+var imageGrids = document.querySelectorAll('.image-grid');
 
+imageGrids.forEach(function(grid) {
+    var viewer = new Viewer(grid, {
+        url: 'data-original',
+        toolbar: {
+            oneToOne: true,
+            reset: true,
+            prev: true,
+            play: true,
+            next: true,
+            rotateLeft: true,
+            rotateRight: true,
+            flipHorizontal: true,
+            flipVertical: true,
+        },
+    });
+});
