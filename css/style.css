@@ -148,6 +148,8 @@ nav ul li a:hover::after {
 }
 
 .image-item {
+  max-height: 500px;
+  max-width: 850px;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
