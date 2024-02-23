@@ -21,7 +21,7 @@ function go() {
 }
 function goComment() {
   setTimeout(function () {
-    window.location.href = "https://litchiiiiii.github.io/";
+    window.location.href = "https://vm-comment.pp.ua/";
   }, 400);
 }
 function wrong() {
