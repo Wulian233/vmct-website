@@ -19,7 +19,11 @@ function go() {
         window.location.href = './modpacks/index.html';
     }, 400);
 }
-
+function goComment() {
+  setTimeout(function () {
+    window.location.href = "https://litchiiiiii.github.io/";
+  }, 400);
+}
 function wrong() {
     Swal.fire({
         icon: 'error',
