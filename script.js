@@ -22,7 +22,7 @@ function go() {
 
 function goComment() {
   setTimeout(function () {
-    window.location.href = "https://vm-comment.pp.ua/";
+    window.location.href = "https://vm-comment.pp.ua/2024/02/24/Cottage-Witch/";
   }, 400);
 }
 
@@ -159,7 +159,7 @@ function exeInstall() {
     setTimeout(function() {
         Swal.fire({
             title: '安装教程',
-            text: '我们很高兴向您推出exe安装程序版的汉化补丁，以简化汉化安装步骤。请稍后下载exe程序并双击打开，进入后选择您的整合包文件夹，根据指引点击下一步即可完成汉化安装。',
+            text: '我们很高兴向您推出exe安装程序版的汉化补丁，以简化汉化安装步骤。请稍后下载exe程序并双击打开，进入后选择您的整合包路径，根据指引点击下一步即可完成汉化安装。',
             cancelButtonText: '没看教程，继续看（点击就不看了）',
             confirmButtonText: '下载汉化',
             showCancelButton: true,
