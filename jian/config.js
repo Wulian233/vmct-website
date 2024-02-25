@@ -23,7 +23,7 @@ window.Config = {
     },
     {
       text: '爱发电',
-      url: 'https://afdian.net/a/VMhanhuazu/'
+      url: '../api/'
     },
     {
       text: 'B站',
