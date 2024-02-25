@@ -155,7 +155,6 @@ function math() {
 }
 
 function exeInstall() {
-    download(); // 在弹窗显示时就开始下载
     setTimeout(function() {
         Swal.fire({
             title: '安装教程',
@@ -174,7 +173,7 @@ function exeInstall() {
             }
         }).then((result) => {
             if (result.isConfirmed) {
-                // 点击下载按钮无事发生，之前已经开始下载了，因为直链解析api是php的，所以慢，提前下，这是障眼法
+                download();
             }
         });
     },
