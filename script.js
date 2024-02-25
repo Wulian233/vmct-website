@@ -11,31 +11,31 @@ window.onload = function() {
 function back() {
     setTimeout(function() {
         window.location.href = 'https://vmct-cn.top/modpacks/index.html';
-    }, 400);
+    }, 1000);
 }
 
 function go() {
     setTimeout(function() {
         window.location.href = './modpacks/index.html';
-    }, 400);
+    }, 1000);
 }
 
 function map() {
     setTimeout(function() {
         window.location.href = './map/index.html';
-    }, 400);
+    }, 1000);
 }
 
 function goComment() {
     setTimeout(function () {
       window.location.href = "https://vm-comment.pp.ua/";
-    }, 400);
+    }, 1000);
 }
 
 function goCWComment() {
   setTimeout(function () {
     window.location.href = "https://vm-comment.pp.ua/2024/02/24/Cottage-Witch/";
-  }, 400);
+  }, 1000);
 }
 
 function wrong() {
