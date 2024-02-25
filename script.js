@@ -20,7 +20,19 @@ function go() {
     }, 400);
 }
 
+function map() {
+    setTimeout(function() {
+        window.location.href = './map/index.html';
+    }, 400);
+}
+
 function goComment() {
+    setTimeout(function () {
+      window.location.href = "https://vm-comment.pp.ua/";
+    }, 400);
+}
+
+function goCWComment() {
   setTimeout(function () {
     window.location.href = "https://vm-comment.pp.ua/2024/02/24/Cottage-Witch/";
   }, 400);
