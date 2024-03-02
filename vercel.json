@@ -4,12 +4,12 @@
       "runtime": "vercel-php@0.3.5"
     }
   },
-"routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
-  ],
-"rewrites": [
+  "rewrites": [
     { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
     { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]
 }
