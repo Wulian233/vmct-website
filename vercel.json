@@ -3,9 +3,5 @@
     "api/*.php": {
       "runtime": "vercel-php@0.3.5"
     }
-  },
-  "rewrites": [
-    { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" }
-  ]
+  }
 }
