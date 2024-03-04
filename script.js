@@ -34,7 +34,7 @@ function goComment() {
 
 function goCWComment() {
   setTimeout(function () {
-    window.location.href = "https://vm-comment.pp.ua/2024/02/24/Cottage-Witch/";
+    window.location.href = "https://vm-comment.pp.ua/posts/63042.html";
   }, 1000);
 }
 
