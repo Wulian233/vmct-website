@@ -242,7 +242,7 @@ nav ul li a:hover::after {
 }
 
 .vm-column {
-  max-width: 700px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
