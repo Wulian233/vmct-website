@@ -245,6 +245,7 @@ nav ul li a:hover::after {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  max-width: 50%;
 }
 
 .link-column {
