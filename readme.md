@@ -2,7 +2,10 @@
 
 # VM汉化组官方网站
 主站点：[点击访问](https://vmct-cn.top/)
+
 评论分站：[点击访问](https://vm-comment.pp.ua/)
+1. 源码仓库[点此跳转](https://github.com/Litchiiiiii/VM-Comment)
+2. 生成仓库[点此跳转](https://github.com/Litchiiiiii/Litchiiiiii.github.io)
 
 </div>
 
@@ -16,7 +19,12 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
 
 ## ✨ 使用的技术与开源库
 
-等待补充
+1. 图片预览[ViewerJS](https://github.com/fengyuanchen/viewerjs)
+2. 网站弹窗[SweetAlert2](https://github.com/sweetalert2/sweetalert2)
+3. 主页和整合包/地图汇总页使用modrinth的开源前端项目[knossos](https://github.com/modrinth/knossos)
+4. [网站状态检测](https://vmct-cn.top/jian/)使用UptimeRobot API，封装页面[uptime-status](https://github.com/yb/uptime-status)
+5. [爱发电公示](https://vmct-cn.top/api/)根据[此项目](https://github.com/MisaLiu/afdian-sponsor-page) 修改为单文件版（需php环境）
+6. [蓝奏云直链解析api](https://vmct-cn.top/api/lanzou.php)使用[LanzouAPI](https://github.com/hanximeng/LanzouAPI)（需php环境）
 
 ## 💧 目录介绍
 
