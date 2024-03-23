@@ -108,7 +108,7 @@ function math() {
                 '提示词语：overcome,practice,effort,make progress<br>' +
                 '提示问题：<li>How do you face challenges in your life?</li><br>' +
                 '<li>What have you achieved?</li><br>' +
-                '注意：请发送邮件给捂脸（wulian@vmct-cn.top），收到后会人工给你的作文打分，并且回复你汉化下载链接。<a href="mailto:wulian@vmct-cn.top?subject=英语作文题">点我发邮件</a><br>'+
+                '注意：请发送邮件给捂脸（wulian@vmct-cn.top），收到后会人工给你的作文打分，并且回复你汉化下载链接。<a href="mailto:wulian@vmct-cn.top?subject=某某整合包英语作文题&body=It is important for us to face challenges in our lives.">点我发邮件</a><br>'+
                 '（2023北京大兴英语二模题目②）<br>'+
                 '<em>It is important for us to face challenges in our lives.</em>',
                 confirmButtonText: '确认',
@@ -197,7 +197,7 @@ function showModal() {
     setTimeout(function() {
         Swal.fire({
             title: '安装教程',
-            text: '首先，要先下载汉化，现在你正在看安装教程，待会就可以下载了。然后找到安装整合包的文件夹，你可以在启动器内点击相应的按钮自动弹出游戏目录（窗口内包含config、mods等文件夹的就是)。然后右键刚才下载的汉化zip压缩包，点击解压到当前文件夹。如果出现合并文件夹/替换文件的提示，说明你操作对了，没出现就是你有一步没做对。然后一律点击“是/确认”。安装完成。',
+            text: '首先，要先下载汉化，现在你正在看安装教程，待会就可以下载了。然后找到安装整合包的文件夹，你可以在启动器内点击相应的按钮自动弹出游戏目录（窗口内包含config、mods等文件夹的就是）。然后右键刚才下载的汉化zip压缩包，点击解压到当前文件夹。如果出现合并文件夹/替换文件的提示，说明你操作对了，没出现就是你有一步没做对。然后一律点击“是/确认”。安装完成。',
             imageUrl: 'https://s1.ax1x.com/2023/06/04/pC9UN1s.jpg',
             cancelButtonText: '没看教程，继续看（点击就不看了）',
             confirmButtonText: '下载汉化',
