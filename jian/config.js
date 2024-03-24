@@ -27,7 +27,7 @@ window.Config = {
     },
     {
       text: 'B站',
-      url: 'https://b23.tv/dwLeoed'
+      url: 'https://space.bilibili.com/2085089798'
     },
   ],
 };

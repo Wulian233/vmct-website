@@ -1,5 +1,4 @@
-<div align="center"><img height="150" src="https://vmct-cn.top/img/vm.png" width="150"/>
-</div>
+<div align="center"><img height="150" src="https://vmct-cn.top/img/vm.png" width="150"/></div>
 
 # VM汉化组官方网站
 主站点：[点击访问](https://vmct-cn.top/)
