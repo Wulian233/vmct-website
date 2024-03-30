@@ -21,14 +21,14 @@
             box-shadow: 0 4px #ad1010;
         }
         .button:active {
-            transform: translateY(5px);
             box-shadow: 0 0 #999;
         }
         body {
+            padding: 200px;
             background-image: linear-gradient(50deg, #0053B9 0%, #021766 48%, #4CA5E9 100%);
             background-repeat: no-repeat;
             background-size: cover;
-
+            height: 100vh;
         }
 
         .container {
@@ -37,7 +37,6 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            
         }
 
         .button {
@@ -51,14 +50,14 @@
         }
 
         #hello {
-            font-family: Helvetica;
+            font-family: Helvetica, serif;
             font-size: 45px;
             font-weight: bold;
             color: #ffffff;
         }
 
         #time {
-            font-family: Times;
+            font-family: Times, serif;
             font-size: 24px;
             color: white;
             padding: 10px;
@@ -73,12 +72,9 @@
     <div class="container">
         <h1 id="hello">Hi, YM website</h1>
         <p id="time"></p>
-        <button onclick="goYM()" class="button button3"
-            >加入YM汉化组内群</button>
-        <button onclick="go()" class="button button1"
-            >下 载 整 合 包 汉 化</button>
-        <button onclick="map()" class="button button2"
-            >下 载 地 图 汉 化</button>
+        <button onclick="goYM()" class="button button3">加 入 汉 化 组 内 群</button>
+        <button onclick="go()" class="button button1">下 载 整 合 包 汉 化</button>
+        <button onclick="map()" class="button button2">下 载 地 图 汉 化</button>
     </div>
 </body>
 <script type="text/javascript" charset="utf-8">
