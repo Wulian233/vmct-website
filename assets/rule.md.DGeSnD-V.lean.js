@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a4 as n}from"./chunks/framework.BAn9709V.js";const b=JSON.parse('{"title":"地图汉化准则（草案）","description":"","frontmatter":{},"headers":[],"relativePath":"rule.md","filePath":"rule.md","lastUpdated":null}'),s={name:"rule.md"},o=n("",39),r=[o];function i(l,p,h,c,d,u){return t(),e("div",null,r)}const g=a(s,[["render",i]]);export{b as __pageData,g as default};
