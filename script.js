@@ -68,7 +68,7 @@ function askQuestion(title, question, correctAnswer) {
 }
 
 function math() {
-    var randomNumber = Math.floor(Math.random() * 9) + 1;
+    var randomNumber = Math.floor(Math.random() * 10) + 1;
     setTimeout(function() {
         if (randomNumber == 1) {
             Swal.fire({
@@ -161,8 +161,23 @@ function math() {
                 'C. 季风区与非季风区的分界线<br>' +
                 'D. 暖温带与亚热带的分界线<br>' +
                 '2023陕西中考地理', 'D');
-        }
-    },
+        }else if (randomNumber == 10) {
+                Swal.fire({
+                title: '历史物理题',
+                html: '漂附在液体中的物体,在自身重力不变的情况下，外来的压力加重力小于浮力时，就会上浮，反之则会下沉。下面与图二的外力有关的史实是<br><br>',
+                input: 'text',
+                confirmButtonText: '确认',
+                showLoaderOnConfirm: true,
+                imageUrl: 'https://s21.ax1x.com/2024/03/31/pFTxnD1.jpg',
+                preConfirm: (answer) => {
+                    if (answer == 'A') {
+                        download();
+                    } else {
+                        wrong();
+                    }
+                }
+            });
+         }
  400);
 }
 
