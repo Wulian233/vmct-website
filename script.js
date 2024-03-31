@@ -1,4 +1,10 @@
 window.onload = function() {
+    Swal.fire({
+        title: 'YM汉化组内群限时免费开放加入！',
+        html:
+        '汉化组内群限时免费开放加入！<br>' +
+        'https://qm.qq.com/q/1B1VFuaHi4',
+    })
     // 获取页面加载完成的时间
     var loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
     // 获取响应时间
