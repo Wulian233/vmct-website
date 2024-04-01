@@ -1,6 +1,6 @@
 window.onload = function() {
     Swal.fire({
-        title: 'YM汉化组内群限时免费开放加入！',
+        title: 'VM汉化组内群限时免费开放加入！',
         html:
         '汉化组内群限时免费开放加入！<br>' +
         'https://qm.qq.com/q/1B1VFuaHi4',
