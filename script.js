@@ -22,7 +22,7 @@ function go() {
 
 function map() {
     setTimeout(function() {
-        window.location.href = './map/index.html';
+        window.location.href = 'https://beta.vmct-cn.top/map/';
     }, 1000);
 }
 
