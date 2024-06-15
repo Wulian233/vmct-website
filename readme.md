@@ -1,4 +1,6 @@
-<div align="center"><img height="150" src="https://vmct-cn.top/img/vm.png" width="150"/></div>
+<div align="center"><img height="150" src="https://vmct-cn.top/img/vm.png" width="170"/></div>
+
+# VM汉化组网站v3版本正在开发中，本v2网页已停止更新
 
 # VM汉化组官方网站
 主站点：[点击访问](https://vmct-cn.top/)
@@ -60,4 +62,4 @@ PS：域名在腾讯云购买
 
 ## 👀 协议
 
-本网站使用[MIT协议](LICENSE).
+本网站使用[MIT协议](LICENSE)。
