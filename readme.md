@@ -19,9 +19,8 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
 1. 图片预览[ViewerJS](https://github.com/fengyuanchen/viewerjs)
 2. 网站弹窗[SweetAlert2](https://github.com/sweetalert2/sweetalert2)
 3. 主页和整合包/地图汇总页使用modrinth的开源前端项目[knossos](https://github.com/modrinth/knossos)
-4. [网站状态检测](https://vmct-cn.top/jian/)使用UptimeRobot API，封装页面[uptime-status](https://github.com/yb/uptime-status)
-5. [爱发电公示](https://vmct-cn.top/api/)根据[此项目](https://github.com/MisaLiu/afdian-sponsor-page) 修改为单文件版（需php环境）
-6. [蓝奏云直链解析api](https://vmct-cn.top/api/lanzou.php)使用[LanzouAPI](https://github.com/hanximeng/LanzouAPI)（需php环境）
+4. [爱发电公示](https://vmct-cn.top/api/)根据[此项目](https://github.com/MisaLiu/afdian-sponsor-page) 修改为单文件版（需php环境）
+5. [蓝奏云直链解析api](https://vmct-cn.top/api/lanzou.php)使用[LanzouAPI](https://github.com/hanximeng/LanzouAPI)（需php环境）
 
 ## 💧 目录介绍
 
@@ -32,7 +31,6 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
         - lanzou.php 蓝奏云直链解析api
     - css 目录网页样式
     - img 目录一些图片
-    - jian 目录网站状态监控
     - join 目录加入社群
     - map 目录地图汉化
     - modpacks 目录整合包汉化
