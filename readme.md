@@ -18,21 +18,16 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
 
 1. 图片预览[ViewerJS](https://github.com/fengyuanchen/viewerjs)
 2. 网站弹窗[SweetAlert2](https://github.com/sweetalert2/sweetalert2)
-3. 主页和整合包/地图汇总页使用modrinth的开源前端项目[knossos](https://github.com/modrinth/knossos)
-4. [爱发电公示](https://vmct-cn.top/api/)根据[此项目](https://github.com/MisaLiu/afdian-sponsor-page) 修改为单文件版（需php环境）
-5. [蓝奏云直链解析api](https://vmct-cn.top/api/lanzou.php)使用[LanzouAPI](https://github.com/hanximeng/LanzouAPI)（需php环境）
+3. 主页和整合包汇总页使用modrinth的开源前端项目[knossos](https://github.com/modrinth/knossos)
 
 ## 💧 目录介绍
 
 ```markdown
 - vmct-website
-    - api 目录api相关
-        - index.php 爱发电公示
-        - lanzou.php 蓝奏云直链解析api
     - css 目录网页样式
     - img 目录一些图片
     - join 目录加入社群
-    - map 目录地图汉化
+    - map 目录地图
     - modpacks 目录整合包汉化
     - sb3 过期石头世界3
     - vault 过期宝藏猎人
@@ -40,6 +35,7 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
     - doing.html 正在汉化中页面
     - index.html 主页
     - name.json VM汉化更新模组称呼
+    - paratranz_update.json 小工具更新监测
     - readme.md 自述文件
     - script.js 网站js
     - tips.txt VM汉化更新模组tips
@@ -49,12 +45,9 @@ VM汉化组是一个用爱发电专注于汉化MC整合包与地图的非盈利�
 
 本网站使用纯原生html js css三件套，浏览器可直接运行。
 
-至于运行api目录下的程序需要php环境。
-
-主站使用了一套完全免费的部署方案，可长期稳定运行：
-1. 使用[Vercel](https://vercel.com/)进行托管，github提交自动触发更新，同时支持php环境。
-2. 使用[CloudFlare](https://cloudflare.com/)作为免费cdn分发。
-3.使用[路过图床](https://imgse.com/)手动上传作为图片存储。
+我们使用了一套完全免费的部署方案，可长期稳定运行：
+1. 使用[CloudFlare Page](https://cloudflare.com/)作为服务器并作为免费cdn分发。
+2.使用[路过图床](https://imgse.com/)手动上传作为图片存储。
 
 PS：域名在腾讯云购买
 
