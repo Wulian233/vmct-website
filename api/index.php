@@ -13,7 +13,7 @@
     $data['ts']      = time();
     $data['sign']    = SignAfdian($_AFDIAN['token'], $data['params'], $_AFDIAN['userId']);
 
-    $result = HttpGet('https://afdian.net/api/open/query-sponsor?' . http_build_query($data));
+    $result = HttpGet('http://ifdian.net/api/open/query-sponsor?' . http_build_query($data));
     $result = json_decode($result, true);
 
     $donator['total']     = $result['data']['total_count'];
@@ -157,7 +157,7 @@ $html = <<< HTML
 
         <main class="mdui-container mdui-typo">
             <h1 class="mdui-text-center">支持汉化组，为我们发电</h1>
-            <iframe id="afdian_leaflet" class="mdui-center" src="https://afdian.net/leaflet?slug=${_AFDIAN['userName']}" scrolling="no" frameborder="0"></iframe>
+            <iframe id="afdian_leaflet" class="mdui-center" src="http://ifdian.net/leaflet?slug=${_AFDIAN['userName']}" scrolling="no" frameborder="0"></iframe>
             <div class="mdui-divider mdui-m-t-5"></div>
             <h2 class="mdui-text-center">感谢以下小伙伴的发电支持！</h2>
             
